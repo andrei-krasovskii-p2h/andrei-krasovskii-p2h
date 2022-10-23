@@ -1,0 +1,20 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  color: $main-color;
+  font-family: Roboto,sans-serif;
+}
+
+.container {
+  padding-left: 7%;
+  padding-right: 7%;
+}

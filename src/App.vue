@@ -1,21 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <app-head />
+  <promo-full />
+  <promo-half />
+  <section-help />
+  <section-article-list />
 </template>
 
 <script>
+import AppHead from "@/components/AppHead.vue";
+import PromoFull from "@/components/PromoFull";
+import PromoHalf from "@/components/PromoHalf";
+import SectionHelp from "@/components/SectionHelp";
+import SectionArticleList from "@/components/SectionArticleList";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    AppHead,
+    PromoFull,
+    PromoHalf,
+    SectionHelp,
+    SectionArticleList,
+  },
+  data() {
+    return {};
+  },
+  methods: {},
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
