@@ -13,4 +13,5 @@ module.exports = defineConfig({
       },
     },
   },
+  publicPath: '/andrei-krasovskii-p2h/'
 });
