@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkfed"]=self["webpackChunkfed"]||[]).push([[682],{5682:function(n,e,t){t.r(e),t.d(e,{default:function(){return i}});var u=t(3396);const r={class:"about"},a=(0,u._)("h1",null,"What We Do",-1),c=[a];function s(n,e){return(0,u.wg)(),(0,u.iD)("div",r,c)}var f=t(89);const o={},d=(0,f.Z)(o,[["render",s]]);var i=d}}]);
+//# sourceMappingURL=682.dc68049e.js.map
