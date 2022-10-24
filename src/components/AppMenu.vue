@@ -1,6 +1,10 @@
 <template>
   <ul class="nav-bar">
-    <li v-for="item in $store.state.navigation.items" class="nav-bar__li">
+    <li
+      v-for="item in $store.state.navigation.items"
+      :key="item.path"
+      class="nav-bar__li"
+    >
       <button
         class="nav-bar__btn"
         :class="{ active: $route.path === item.path }"

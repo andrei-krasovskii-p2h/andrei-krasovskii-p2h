@@ -8,6 +8,7 @@
     <ul class="article-list__box">
       <li
         v-for="item in $store.state.articles.items"
+        :key="item.path"
         class="article-list__item"
       >
         <p class="article-list__item-head">{{ item.name }}</p>
