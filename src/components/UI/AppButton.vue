@@ -22,6 +22,7 @@ export default {
 
 <style scoped lang="scss">
 .btn {
+  font-size: 16px;
   padding: 10px 25px;
   border-radius: 50px;
   cursor: pointer;
@@ -37,5 +38,18 @@ export default {
     background-color: $main-background;
     color: $inverse-color;
   }
+}
+
+.primary {
+  background-color: $primary-background;
+  color: $inverse-color;
+
+  &:hover {
+    background-color: $main-background;
+  }
+}
+
+.border {
+  border: 2px solid $black;
 }
 </style>

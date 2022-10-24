@@ -19,7 +19,7 @@ export const navModule = {
       },
       {
         name: "Our network",
-        path: "/our-networ",
+        path: "/our-network",
       },
       {
         name: "Insights",
