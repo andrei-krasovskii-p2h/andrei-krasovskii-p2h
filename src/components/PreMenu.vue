@@ -1,7 +1,15 @@
 <template>
   <div class="pre-menu">
-    <a href="#" class="pre-menu__btn pre-menu__btn--secondary">Learn</a>
-    <a href="#" class="pre-menu__btn pre-menu__btn--primary">Donate</a>
+    <a
+      @click="$router.push('/learn')"
+      class="pre-menu__btn pre-menu__btn--secondary"
+      >Learn</a
+    >
+    <a
+      @click="$router.push('/donate')"
+      class="pre-menu__btn pre-menu__btn--primary"
+      >Donate</a
+    >
   </div>
 </template>
 
@@ -21,11 +29,12 @@ export default {};
     font-size: 16px;
     font-weight: 700;
     text-decoration: none;
+    cursor: pointer;
 
     &--secondary {
       position: relative;
       color: $main-color;
-      border-left: 1px solid $border-color-grey;
+      border-left: 1px solid $border-color;
 
       &:hover {
         color: #fff;
@@ -39,14 +48,14 @@ export default {};
         right: 0;
         width: 100%;
         height: 5px;
-        background-color: #2f8375;
+        background-color: $underline;
         content: "";
       }
     }
 
     &--primary {
       color: #fff;
-      background-color: #cf1b46;
+      background-color: $primary-background;
 
       &:hover {
         background-color: $main-background;

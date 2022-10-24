@@ -15,8 +15,8 @@ export default {};
   align-items: center;
   padding: 0 25px;
   height: 45px;
-  border-left: 1px solid $border-color-grey;
-  border-right: 1px solid $border-color-grey;
+  border-left: 1px solid $border-color;
+  border-right: 1px solid $border-color;
   cursor: pointer;
 
   &:hover {

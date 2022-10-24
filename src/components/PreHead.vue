@@ -23,6 +23,6 @@ export default {
   justify-content: space-between;
   align-items: stretch;
   height: 45px;
-  border-bottom: 1px solid $border-color-grey;
+  border-bottom: 1px solid $border-color;
 }
 </style>
